@@ -14,7 +14,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         txtnombre = new javax.swing.JTextField();
         txtedad = new javax.swing.JTextField();
-        txtcorreol = new javax.swing.JTextField();
+        txtcorreo = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         txtjson = new javax.swing.JTextField();
         btnjson = new javax.swing.JButton();
@@ -79,7 +79,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                         .addGap(40, 40, 40)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(txtcorreol, javax.swing.GroupLayout.DEFAULT_SIZE, 252, Short.MAX_VALUE)
+                                .addComponent(txtcorreo, javax.swing.GroupLayout.DEFAULT_SIZE, 252, Short.MAX_VALUE)
                                 .addComponent(txtedad)
                                 .addComponent(txtnombre))
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -104,7 +104,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(txtcorreol, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtcorreo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnjson)
@@ -123,7 +123,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         Datos datos = new Datos();
         datos.nombre = txtnombre.getText().toString();
         datos.edad = txtedad.getText().toString();
-        datos.correo = txtcorreol.getText().toString();
+        datos.correo = txtcorreo.getText().toString();
                 Gson gson = new Gson();
         String json = gson.toJson(datos);
         txtjson.setText(json);
@@ -134,7 +134,7 @@ public class frmPrincipal extends javax.swing.JFrame {
         Datos datos = gson.fromJson(json, Datos.class);
         txtnombre.setText(datos.nombre);
         txtedad.setText(datos.edad);
-        txtcorreol.setText(datos.correo);
+        txtcorreo.setText(datos.correo);
     }//GEN-LAST:event_btnclaseActionPerformed
     public static void main(String args[]) {
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -172,7 +172,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JTextField txtcorreol;
+    private javax.swing.JTextField txtcorreo;
     private javax.swing.JTextField txtedad;
     private javax.swing.JTextField txtjson;
     private javax.swing.JTextField txtnombre;

@@ -46,7 +46,7 @@
                       <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="txtcorreol" pref="252" max="32767" attributes="0"/>
+                              <Component id="txtcorreo" pref="252" max="32767" attributes="0"/>
                               <Component id="txtedad" max="32767" attributes="0"/>
                               <Component id="txtnombre" max="32767" attributes="0"/>
                           </Group>
@@ -80,7 +80,7 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtcorreol" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcorreo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -136,7 +136,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtedad">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtcorreol">
+    <Component class="javax.swing.JTextField" name="txtcorreo">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
