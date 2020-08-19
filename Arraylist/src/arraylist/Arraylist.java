@@ -1,9 +1,7 @@
 package arraylist;
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-
 public class Arraylist {
     public static void main(String[] args) {
         ArrayList<String> lis = new ArrayList<>(Arrays.asList("A","B","C","D","E","F"));
